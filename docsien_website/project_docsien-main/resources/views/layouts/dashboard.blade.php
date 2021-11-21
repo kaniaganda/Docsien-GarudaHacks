@@ -259,30 +259,72 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
 
-    <!-- Main content -->
-    <div class="container">
-      <div class="calendar">
-        <div class="month">
-          <i class="fas fa-angle-left prev"></i>
-          <div class="date">
-            <h1></h1>
-            <p></p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div><!-- /.card -->
           </div>
-          <i class="fas fa-angle-right next"></i>
+          <!-- /.col-md-6 -->
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="m-0">Featured</h5>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Special title treatment</h6>
+
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h5 class="m-0">Featured</h5>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Special title treatment</h6>
+
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- /.col-md-6 -->
         </div>
-        <div class="weekdays">
-          <div>Sun</div>
-          <div>Mon</div>
-          <div>Tue</div>
-          <div>Wed</div>
-          <div>Thu</div>
-          <div>Fri</div>
-          <div>Sat</div>
-        </div>
-        <div class="days"></div>
-      </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
     </div>
+    <!-- /.content -->
+  </div>
+ 
+    <!-- Main content -->
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -314,6 +356,5 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
-<script src="js/script.js"></script>
 </body>
 </html>
