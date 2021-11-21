@@ -47,8 +47,8 @@ public class MedicationAdapter extends RecyclerView.Adapter<MedicationAdapter.Vi
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tvMedication, tvDate1, tvDate2, tvDate3;
-        Button btnDate1, btnDate2, btnDate3;
+        TextView tvMedication, tvDate1, tvDate2, tvDate3, tvDate4, tvDate5, tvDate6, tvDate7;
+        Button btnDate1, btnDate2, btnDate3, btnDate4, btnDate5, btnDate6, btnDate7;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -59,6 +59,15 @@ public class MedicationAdapter extends RecyclerView.Adapter<MedicationAdapter.Vi
             btnDate1 = itemView.findViewById(R.id.btnDate1);
             btnDate2 = itemView.findViewById(R.id.btnDate2);
             btnDate3 = itemView.findViewById(R.id.btnDate3);
+
+            tvDate4 = itemView.findViewById(R.id.tvDate4);
+            tvDate5 = itemView.findViewById(R.id.tvDate5);
+            tvDate6 = itemView.findViewById(R.id.tvDate6);
+            tvDate7 = itemView.findViewById(R.id.tvDate7);
+            btnDate4 = itemView.findViewById(R.id.btnDate4);
+            btnDate5 = itemView.findViewById(R.id.btnDate5);
+            btnDate6 = itemView.findViewById(R.id.btnDate6);
+            btnDate7 = itemView.findViewById(R.id.btnDate7);
         }
 
         public void bind(Medication medication) {
@@ -66,10 +75,14 @@ public class MedicationAdapter extends RecyclerView.Adapter<MedicationAdapter.Vi
             tvDate1.setText(medication.dates.get(0));
             tvDate2.setText(medication.dates.get(1));
             tvDate3.setText(medication.dates.get(2));
+            tvDate4.setText(medication.dates.get(3));
+            tvDate5.setText(medication.dates.get(4));
+            tvDate6.setText(medication.dates.get(5));
+            tvDate7.setText(medication.dates.get(6));
 
             // Change color of marker if medicine consumed
             // ! Add ability to change back to gray
-            ArrayList<Button> listOfButtons = new ArrayList<Button>(Arrays.asList(btnDate1, btnDate2, btnDate3));
+            ArrayList<Button> listOfButtons = new ArrayList<Button>(Arrays.asList(btnDate1, btnDate2, btnDate3, btnDate4, btnDate5, btnDate6, btnDate7));
             for (Button button : listOfButtons) {
                 button.setOnClickListener(new View.OnClickListener() {
                     @Override

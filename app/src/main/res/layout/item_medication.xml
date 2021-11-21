@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvMedication"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="22dp"
         android:layout_marginTop="20dp"
         android:textSize="16sp"
         tools:text="15-11" />
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvMedication"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/tvDate2"
         android:textSize="16sp"
         tools:text="15-11" />
@@ -64,18 +64,103 @@
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDate2"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="86dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="6dp"
-        android:backgroundTint="@color/white"/>
+        android:layout_toEndOf="@+id/btnDate1"
+        android:backgroundTint="@color/white" />
 
     <Button
         android:id="@+id/btnDate3"
         android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDate3"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="141dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="6dp"
-        android:backgroundTint="@color/white"/>
+        android:layout_toEndOf="@+id/btnDate2"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvDate4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMedication"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/tvDate5"
+        android:textSize="16sp"
+        tools:text="15-11" />
+
+    <TextView
+        android:id="@+id/tvDate5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMedication"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/tvDate3"
+        android:textSize="16sp"
+        tools:text="15-11" />
+
+    <TextView
+        android:id="@+id/tvDate6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDate1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        tools:text="15-11" />
+
+    <TextView
+        android:id="@+id/tvDate7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDate2"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/tvDate6"
+        android:textSize="16sp"
+        tools:text="15-11" />
+
+    <Button
+        android:id="@+id/btnDate4"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDate1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/btnDate3"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/btnDate5"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDate2"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/btnDate4"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/btnDate6"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDate6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/btnDate7"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDate7"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/btnDate6"
+        android:backgroundTint="@color/white" />
+
 </RelativeLayout>
