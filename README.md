@@ -6,7 +6,11 @@ https://devpost.com/software/docsien
 
 ## Video Walkthrough
 
+### Web Portal
+
 <img src='walkthrough_website.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+### Mobile Application
 
 <img src='walkthrough_mobile.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
 
