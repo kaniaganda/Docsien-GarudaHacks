@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
 
     // Login user
     private void loginUser(String enteredUsername, String enteredPassword) {
-        reference = FirebaseDatabase.getInstance().getReference("Patient");
+        reference = FirebaseDatabase.getInstance().getReference("patient");
 
         // Check if user exists
         Query checkUser = reference.orderByChild("username").equalTo(enteredUsername);
@@ -96,14 +96,13 @@ public class LoginActivity extends AppCompatActivity {
     // Register username and password
     private void registerUser(String username, String password) {
         database = FirebaseDatabase.getInstance();
-        reference = database.getReference("Patient");
+        reference = database.getReference("patient");
 
         if (username.length() == 0 || password.length() == 0) {
             Toast.makeText(LoginActivity.this, "Enter username and password", Toast.LENGTH_SHORT).show();
         }
         else {
-            Patient newPatient = new Patient(username, password, "amoxicillin");
-
+            Patient newPatient = new Patient(username, password);
             reference.child(username).setValue(newPatient);
 
             Toast.makeText(LoginActivity.this, "Account created! Please login.", Toast.LENGTH_SHORT).show();

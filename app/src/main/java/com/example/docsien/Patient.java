@@ -1,17 +1,18 @@
 package com.example.docsien;
 
 public class Patient {
+    public String username, password;
 
-    public String username, password, medication;
+    public Medication medication;
 
     // Empty constructor for Firebase
     public Patient() {
     }
 
-    public Patient(String username, String password, String medication) {
+    public Patient(String username, String password) {
         this.username = username;
         this.password = password;
-        this.medication = medication;
+        this.medication = new Medication();
     }
 
     public String getUsername() {
@@ -30,11 +31,11 @@ public class Patient {
         this.password = password;
     }
 
-    public String getMedication() {
+    public Medication getMedication() {
         return medication;
     }
 
-    public void setMedication(String medication) {
+    public void setMedication(Medication medication) {
         this.medication = medication;
     }
 }

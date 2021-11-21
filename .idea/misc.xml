@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Kania/Desktop/Learning/Projects/Android/Docsien/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Kania/Desktop/Learning/Projects/Android/Docsien/app/src/main/res/drawable/background_gradient.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Kania/Desktop/Learning/Projects/Android/Docsien/app/src/main/res/drawable/background_gradient_reverse.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Kania/Desktop/Learning/Projects/Android/Docsien/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Kania/Desktop/Learning/Projects/Android/Docsien/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/Users/Kania/Desktop/Learning/Projects/Android/Docsien/app/src/main/res/layout/item_medication.xml" value="0.33" />
       </map>
     </option>
   </component>
