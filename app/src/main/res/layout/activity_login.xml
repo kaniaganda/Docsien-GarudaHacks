@@ -8,45 +8,40 @@
     android:background="@drawable/background_gradient">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="416dp"
-        android:layout_height="442dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-44dp"
-        android:layout_marginTop="269dp"
-        android:layout_marginEnd="39dp"
-        android:layout_marginBottom="20dp"
+        android:id="@+id/ivRoundedBackground1"
+        android:layout_width="wrap_content"
+        android:layout_height="566dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginBottom="0dp"
         app:srcCompat="@drawable/background_rounded_corner" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="416dp"
-        android:layout_height="442dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:id="@+id/ivRoundedBackground2"
+        android:layout_width="wrap_content"
+        android:layout_height="566dp"
+        android:layout_alignParentTop="false"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="272dp"
-        android:layout_marginEnd="-46dp"
-        android:layout_marginBottom="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="4dp"
         app:srcCompat="@drawable/background_rounded_corner" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="416dp"
-        android:layout_height="442dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:id="@+id/ivRoundedBackground3"
+        android:layout_width="wrap_content"
+        android:layout_height="566dp"
+        android:layout_alignParentTop="false"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="268dp"
-        android:layout_marginEnd="-12dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="1dp"
         app:srcCompat="@drawable/background_rounded_corner" />
 
     <ImageView
@@ -55,7 +50,7 @@
         android:layout_height="61dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="83dp"
+        android:layout_marginStart="78dp"
         android:layout_marginTop="339dp"
         app:srcCompat="@drawable/docsien_logo" />
 
